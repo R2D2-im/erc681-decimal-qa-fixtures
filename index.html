@@ -36,7 +36,7 @@
     <section class="card">
       <h1>ERC-681 缺省 decimal 测试</h1>
       <p class="intro">生成 ERC-20 transfer 二维码。URI 只携带最小单位金额，不包含 <code>decimal</code> 参数，用于验证钱包是否采用本地代币精度。</p>
-      <p class="prerequisite"><strong>测试前置条件：</strong>请先在当前钱包的对应网络中添加下方 Token，并确认钱包本地显示该资产、精度为 6。否则扫码会提示“在该钱包下找不到此资产”。默认 Token 为 Ethereum USDC。</p>
+      <p class="prerequisite"><strong>测试前置条件：</strong>请先在当前钱包的对应网络中添加下方 Token，并确认钱包本地显示该资产、精度为 6。否则扫码会提示“在该钱包下找不到此资产”。默认 Token 为 Ethereum USDT。</p>
       <div class="grid">
         <div>
           <label for="chainId">Chain ID</label>
@@ -48,7 +48,7 @@
         </div>
         <div class="wide">
           <label for="token">Token 合约地址</label>
-          <input id="token" value="0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48" placeholder="0x…">
+          <input id="token" value="0xdAC17F958D2ee523a2206206994597C13D831ec7" placeholder="0x…">
         </div>
         <div class="wide">
           <label for="recipient">收款地址</label>
